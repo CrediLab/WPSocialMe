@@ -98,7 +98,6 @@ class WPsocialMe {
 
 		// Drop PM table and plugin option when uninstall
 		$wpdb->query( "DROP table {$wpdb->prefix}sm" );
-		delete_option( 'option' );
 	}
 	
 	

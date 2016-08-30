@@ -31,13 +31,13 @@
 				</div>
 			</div>
 			<table>
-			<tr><td><h4>Display Options</h4>
-			<tr><td><input type="checkbox" name="display_login"><label for="display_login"> Login form</label><br>
-			<tr><td><input type="checkbox" name="display_register"><label for="display_register"> Registration form</label><br>
-			<tr><td><input type="checkbox" name="display_comments"><label for="display_comments"> Comments</label><br>
+				<tr><td><h4>Display Options</h4>
+				<tr><td><input type="checkbox" name="display_login"><label for="display_login"> Login form</label><br>
+				<tr><td><input type="checkbox" name="display_register"><label for="display_register"> Registration form</label><br>
+				<tr><td><input type="checkbox" name="display_comments"><label for="display_comments"> Comments</label><br>
 			<tr><td><h4>User Avatar</h4>
-			<tr><td><input type="radio" name="avatar" value="default"><label for="default_avatar"> Use Wordpress default avatar</label><br>
-			<tr><td><input type="radio" name="avatar" value="social"><label for="social_avatar"> Use profile picture from social media</label><br>
+				<tr><td><input type="radio" name="avatar" value="default"><label for="default_avatar"> Use Wordpress default avatar</label><br>
+				<tr><td><input type="radio" name="avatar" value="social"><label for="social_avatar"> Use profile picture from social media</label><br>
 			</table>
 			<p class="submit">
 				<input type="submit" name="submit" class="button-primary" value="<?php _e( 'Save Changes', 'wp_sm' ) ?>"/>
